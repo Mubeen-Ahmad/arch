@@ -8853,28 +8853,94 @@ i like Animes
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1942fb8d-e2ee-4c1a-b9fc-d418f0f36440">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d1ebede9-1273-4162-a1e9-cc29194eb2f8">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<body style="font-family: Sans-serif;">
-<div style="color: black; font-size: 15px; font-style: oblique; text-shadow: 0 0 3px white, 0 0 1px black; padding: 20px;">
-<p>| Operator | Use                             | Example                                | Explanation                             |            |                                                  |
-| -------- | -------------------------------- | -------------------------------------- | --------------------------------------- | ---------- | ------------------------------------------------ |
-| <code>&gt;</code>      | <strong>Write/Overwrite</strong>              | <code>echo "Hello" &gt; file.txt</code>              | File overwrite karega                   |            |                                                  |
-| <code>&gt;&gt;</code>     | <strong>Append</strong>                       | <code>echo "More" &gt;&gt; file.txt</code>              | Content file ke end me add karega       |            |                                                  |
-| <code>&lt;</code>      | <strong>Read from file (input)</strong>       | <code>cat &lt; file.txt</code>                       | File ka data input ke tarah read karega |            |                                                  |
-| <code>2&gt;</code>     | <strong>Error redirect (overwrite)</strong>   | <code>command 2&gt; error.txt</code>                 | Sirf error messages ko file me likhega  |            |                                                  |
-| <code>2&gt;&gt;</code>    | <strong>Error redirect (append)</strong>      | <code>command 2&gt;&gt; error.txt</code>                | Error messages ko file me add karega    |            |                                                  |
-| <code>&amp;&gt;</code>     | <strong>Standard output + error dono</strong> | <code>command &amp;&gt; output.txt</code>                | Dono STDOUT aur STDERR file me jaayenge |            |                                                  |
-| <code>&amp;&gt;&gt;</code>    | <strong>Append STDOUT + STDERR</strong>       | <code>command &amp;&gt;&gt; output.txt</code>               | Dono outputs file me append kar dega    |            |                                                  |
-| <code>&lt;&lt;</code>     | <strong>Here Document</strong>                | <code>cat &lt;&lt; EOF</code>                           | Multiple line input provide karna       |            |                                                  |
-| <code>&lt;&lt;&lt;</code>    | <strong>Here String</strong>                  | <code>cat &lt;&lt;&lt; "Hello"</code>                      | Single line input string directly       |            |                                                  |
-| &gt;|      | <strong>Force overwrite (ignore noclobber)</strong> | <code>cat &lt;&lt;&lt; "Hello"  &gt;\| file.txt</code> |  Bypass noclobber                        |             |</p>
+<!DOCTYPE html>
+
+<html>
+<head>
+</head>
+<body>
+<table border="1">
+<thead>
+<tr>
+<th>Operator</th>
+<th>Use</th>
+<th>Example</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&gt;</code></td>
+<td><strong>Write / Overwrite</strong></td>
+<td><code>echo "Hello" &gt; file.txt</code></td>
+<td>File ko overwrite karega</td>
+</tr>
+<tr>
+<td><code>&gt;&gt;</code></td>
+<td><strong>Append</strong></td>
+<td><code>echo "More" &gt;&gt; file.txt</code></td>
+<td>File ke end me naya content jod dega</td>
+</tr>
+<tr>
+<td><code>&lt;</code></td>
+<td><strong>Input from file</strong></td>
+<td><code>cat &lt; file.txt</code></td>
+<td>File ka content input ke tarah use karega</td>
+</tr>
+<tr>
+<td><code>2&gt;</code></td>
+<td><strong>STDERR to file (overwrite)</strong></td>
+<td><code>command 2&gt; error.txt</code></td>
+<td>Sirf error messages file me likhega (overwrite)</td>
+</tr>
+<tr>
+<td><code>2&gt;&gt;</code></td>
+<td><strong>STDERR to file (append)</strong></td>
+<td><code>command 2&gt;&gt; error.txt</code></td>
+<td>Error messages file ke end me jodega</td>
+</tr>
+<tr>
+<td><code>&amp;&gt;</code></td>
+<td><strong>STDOUT + STDERR (overwrite)</strong></td>
+<td><code>command &amp;&gt; output.txt</code></td>
+<td>Dono output aur error file me likhega</td>
+</tr>
+<tr>
+<td><code>&amp;&gt;&gt;</code></td>
+<td><strong>STDOUT + STDERR (append)</strong></td>
+<td><code>command &amp;&gt;&gt; output.txt</code></td>
+<td>Dono ko file ke end me jodega</td>
+</tr>
+<tr>
+<td><code>&lt;&lt;</code></td>
+<td><strong>Here Document</strong></td>
+<td><code>cat &lt;&lt; EOF ... EOF</code></td>
+<td>Multi-line input directly dena (delimiter based)</td>
+</tr>
+<tr>
+<td><code>&lt;&lt;&lt;</code></td>
+<td><strong>Here String</strong></td>
+<td><code>cat &lt;&lt;&lt; "Hello"</code></td>
+<td>Single line string ko input banana</td>
+</tr>
+<tr>
+<td><code>&gt;\|</code></td>
+<td><strong>Force overwrite (ignore noclobber)</strong></td>
+<td><code>cat &lt;&lt;&lt; "Hi" &gt;\| file.txt</code></td>
+<td><code>noclobber</code> enabled ho to bhi overwrite karega</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
 </div>
-</body></div>
+</div>
 </div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=46b6bad3-0793-4a71-857d-c3097705d5af">
@@ -9722,6 +9788,6 @@ above 1 line spaces$
 </body></div>
 </div>
 </div>
-</div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></main>
+</div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></main>
 </body>
 </html>
