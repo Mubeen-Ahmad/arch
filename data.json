@@ -1,0 +1,290 @@
+[
+    {
+        "Name": "Demon Slayer (Kimetsu no Yaiba)",
+        "Genre": "Action | Shounen | Drama",
+        "Type": "Episode",
+        "Status": "Watched",
+        "Code": "1",
+        "uid": "1"
+    },
+    {
+        "Name": "The Unaware Atelier Meister",
+        "Genre": "Fantasy | Slice of Life",
+        "Type": "Episode",
+        "Status": "Continue",
+        "Code": "2",
+        "uid": "2"
+    },
+    {
+        "Name": "Horimiya",
+        "Genre": "Romance | Slice of Life | Comedy",
+        "Type": "Episode",
+        "Status": "Yet to Watched",
+        "Code": "3",
+        "uid": "3"
+    },
+    {
+        "Name": "Naruto",
+        "Genre": "",
+        "Type": "",
+        "Status": "Yet to Watched",
+        "Code": "4",
+        "uid": "4"
+    },
+    {
+        "Name": "Jujutsu Kaisen",
+        "Genre": "Action",
+        "Type": "",
+        "Status": "Continue",
+        "Code": "5",
+        "uid": "5"
+    },
+    {
+        "Name": "Buddy Daddies",
+        "Genre": "",
+        "Type": "Episode",
+        "Status": "Watched",
+        "Code": "6",
+        "uid": "6"
+    },
+    {
+        "Name": "Boruto",
+        "Genre": "",
+        "Type": "",
+        "Status": "Yet to Watched",
+        "Code": "7",
+        "uid": "7"
+    },
+    {
+        "Name": "Frieren",
+        "Genre": "",
+        "Type": "",
+        "Status": "Yet to Watched",
+        "Code": "8",
+        "uid": "8"
+    },
+    {
+        "Name": "why does nobody remember me in this world",
+        "Genre": "isekai",
+        "Type": "Episode",
+        "Status": "Watched",
+        "Code": "9",
+        "uid": "9"
+    },
+    {
+        "Name": "i got a cheat skill in another world",
+        "Genre": "isekai",
+        "Type": "Episode",
+        "Status": "Watched",
+        "Code": "10",
+        "uid": "10"
+    },
+    {
+        "Name": "Mushoku Tensei",
+        "Genre": "isekai",
+        "Type": "Episode",
+        "Status": "Watched",
+        "Code": "11",
+        "uid": "11"
+    },
+    {
+        "Name": "The wrong way to use healing",
+        "Genre": "isekai",
+        "Type": "Episode",
+        "Status": "Watched",
+        "Code": "12",
+        "uid": "12"
+    },
+    {
+        "Name": "classroom of the elite",
+        "Genre": "",
+        "Type": "Episode",
+        "Status": "Watched",
+        "Code": "13",
+        "uid": "13"
+    },
+    {
+        "Name": "Solo leveling",
+        "Genre": "isekai",
+        "Type": "Episode",
+        "Status": "Watched",
+        "Code": "14",
+        "uid": "14"
+    },
+    {
+        "Name": "Tower of God",
+        "Genre": "",
+        "Type": "Episode",
+        "Status": "Watched",
+        "Code": "15",
+        "uid": "15"
+    },
+    {
+        "Name": "Kaiju No 8",
+        "Genre": "Action",
+        "Type": "Episode",
+        "Status": "Watched",
+        "Code": "16",
+        "uid": "16"
+    },
+    {
+        "Name": "The strongest magician in the demon lord's army was a human",
+        "Genre": "isekai",
+        "Type": "Episode",
+        "Status": "Watched",
+        "Code": "17",
+        "uid": "17"
+    },
+    {
+        "Name": "You lie in April",
+        "Genre": "Slice of Life | Romance",
+        "Type": "Movie",
+        "Status": "Watched",
+        "Code": "18",
+        "uid": "18"
+    },
+    {
+        "Name": "A Slient Voice",
+        "Genre": "Slice of Life | Romance",
+        "Type": "Movie",
+        "Status": "Watched",
+        "Code": "19",
+        "uid": "19"
+    },
+    {
+        "Name": "I Want to eat your pancreas",
+        "Genre": "Slice of Life | Romance",
+        "Type": "Episode",
+        "Status": "Watched",
+        "Code": "20",
+        "uid": "20"
+    },
+    {
+        "Name": "Your Name",
+        "Genre": "Slice of Life | Romance",
+        "Type": "Movie",
+        "Status": "Watched",
+        "Code": "21",
+        "uid": "21"
+    },
+    {
+        "Name": "5 CM Per Second",
+        "Genre": "Slice of Life",
+        "Type": "Movie",
+        "Status": "Watched",
+        "Code": "22",
+        "uid": "22"
+    },
+    {
+        "Name": "Weathering With you",
+        "Genre": "Slice of Life | Romance",
+        "Type": "Movie",
+        "Status": "Watched",
+        "Code": "23",
+        "uid": "23"
+    },
+    {
+        "Name": "Relif",
+        "Genre": "Slice of Life | Romance",
+        "Type": "Episode",
+        "Status": "Watched",
+        "Code": "24",
+        "uid": "24"
+    },
+    {
+        "Name": "Attack on Titan",
+        "Genre": "Action | Shounen | Slice of Life",
+        "Type": "Episode",
+        "Status": "Watched",
+        "Code": "25",
+        "uid": "25"
+    },
+    {
+        "Name": "Darling in Frenx",
+        "Genre": "Slice of Life",
+        "Type": "Episode",
+        "Status": "Yet to Watched",
+        "Code": "26",
+        "uid": "26"
+    },
+    {
+        "Name": "ReZero",
+        "Genre": "Romance",
+        "Type": "Episode",
+        "Status": "Yet to Watched",
+        "Code": "27",
+        "uid": "27"
+    },
+    {
+        "Name": "Blue Box",
+        "Genre": "",
+        "Type": "",
+        "Status": "Yet to Watched",
+        "Code": "28",
+        "uid": "28"
+    },
+    {
+        "Name": "Insomniacs After School",
+        "Genre": "Slice of Life | Romance",
+        "Type": "Episode",
+        "Status": "Yet to Watched",
+        "Code": "29",
+        "uid": "29"
+    },
+    {
+        "Name": "My Dress up Darling",
+        "Genre": "Slice of Life | Romance",
+        "Type": "Episode",
+        "Status": "Watched",
+        "Code": "30",
+        "uid": "30"
+    },
+    {
+        "Name": "A Couple of Cukoos",
+        "Genre": "Romance",
+        "Type": "Episode",
+        "Status": "Watched",
+        "Code": "31",
+        "uid": "31"
+    },
+    {
+        "Name": "Grave of the firefiles",
+        "Genre": "Slice of Life",
+        "Type": "Movie",
+        "Status": "Yet to Watched",
+        "Code": "32",
+        "uid": "32"
+    },
+    {
+        "Name": "The Wolf of Children",
+        "Genre": "Slice of Life",
+        "Type": "Movie",
+        "Status": "Yet to Watched",
+        "Code": "33",
+        "uid": "33"
+    },
+    {
+        "Name": "Plastic Memories",
+        "Genre": "Slice of Life",
+        "Type": "Episode",
+        "Status": "Yet to Watched",
+        "Code": "34",
+        "uid": "34"
+    },
+    {
+        "Name": "Suzume",
+        "Genre": "Action | Romance | Slice of Life",
+        "Type": "Movie",
+        "Status": "Watched",
+        "Code": "35",
+        "uid": "35"
+    },
+    {
+        "Name": "Garden of Words",
+        "Genre": "Romance | Slice of Life",
+        "Type": "Movie",
+        "Status": "Yet to Watched",
+        "Code": "36",
+        "uid": "36"
+    }
+]
